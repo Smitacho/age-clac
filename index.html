@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>age calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="name">AGE CALCULATOR</div>
+           
+            <div class="birth">Birth Date</div>
+            <div class="DOB">
+            <div class="date">
+                <div class="name1">Date</div>
+                <input type="text" name="date" class="int" minlength="1" id="date" maxlength="2" placeholder="    dd" required autofocus>
+            </div>
+            <div class="month">
+                <div class="name1">month</div>
+                <input type="text" name="month" class="int" minlength="1" id="month" maxlength="2" placeholder="    mm" required autofocus>
+            </div>
+            <div class="year">
+                <div class="name1">Year</div>
+                <input type="text" name="year"  class="int" minlength="4" id="year" maxlength="4" placeholder="   yyyy" required autofocus>
+            </div>
+        </div>
+            <input type="button" onclick="age()" name="Submit" value="Calculate" id="calc">
+            <div id="age"></div>     
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
